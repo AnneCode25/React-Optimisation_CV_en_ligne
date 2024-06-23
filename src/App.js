@@ -1,10 +1,10 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Accueil from "./pages/Accueil";
-import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
-import Realisations from "./pages/Realisations";
-import Service from "./pages/Service";
-import Mentions from "./pages/Mentions";
+import Accueil from "./pages/Accueil.jsx";
+import Blog from "./pages/Blog.jsx";
+import Contact from "./pages/Contact.jsx";
+import Realisations from "./pages/Realisation.jsx";
+import Service from "./pages/Service.jsx";
+import Mentions from "./pages/Mentions.jsx";
 import Scroll from "./components/Scroll.jsx";
 import Profil from "./components/Profil.jsx";
 

@@ -1,7 +1,7 @@
-import '../assets/styles/Service.css'
-import Header from '../components/Header.jsx';
-import Footer from '../components/Footer.jsx';
-import ImageDynamic from '../components/ImageDynamic.jsx';
+import "../assets/styles/Service.css";
+import Header from "../components/Header.jsx";
+import Footer from "../components/Footer.jsx";
+import ImageDynamic from "../components/ImageDynamic.jsx";
 
 function Service () {
 

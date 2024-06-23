@@ -1,6 +1,6 @@
 import "../assets/styles/Mentions.css";
-import Header from "../components/Header.js";
-import Footer from "../components/Footer.js";
+import Header from "../components/Header.jsx";
+import Footer from "../components/Footer.jsx";
 import React from "react";
 import { Helmet } from "react-helmet";
 

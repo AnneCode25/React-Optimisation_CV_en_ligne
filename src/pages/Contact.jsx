@@ -1,6 +1,6 @@
 import "../assets/styles/Contact.css";
-import Header from "../components/Header.js";
-import Footer from "../components/Footer.js";
+import Header from "../components/Header.jsx";
+import Footer from "../components/Footer.jsx";
 function Contact() {
   return (
     <div className="meContacter">

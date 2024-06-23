@@ -1,0 +1,10 @@
+.profil {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+}
+
+.avatar{
+        width: 20%;
+        margin: 0 auto;
+}

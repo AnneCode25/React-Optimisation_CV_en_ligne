@@ -62,13 +62,13 @@ function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/A_propos" className="text-black">
+                <a href="/#aPropos" className="text-black">
                   <i
                     className="fas fa-chevron-right me-1"
                     style={{ color: "#0d6efd" }}
                   ></i>
                   À propos
-                </Link>
+                </a>
               </li>
               <li>
                 <Link to="/service" className="text-black">

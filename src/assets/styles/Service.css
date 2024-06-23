@@ -1,0 +1,101 @@
+.container-fluid-service {
+        margin: 0px !important;
+        padding: 0px !important;
+}
+
+/* Style du titre des services */
+.titre-offre {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: white;
+}
+
+.titre-offre h2 {
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        padding-top: 2rem;
+}
+
+.titre-offre p::after{
+        content: "";
+        display: flex;
+        padding-top: 0.8rem;
+        margin: auto;
+        width: 25%;
+        border-bottom: 4px solid #0d6efd;    
+}
+
+
+
+/* Style des services */
+
+.container-offre {
+        margin: 0rem;
+}
+
+.container-offre article {
+        background-color: white;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        border-radius: 3%;
+        padding: 10px;
+        margin-top: 20px;
+        margin-right: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+          rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+    article h2 {
+        text-transform: uppercase;
+        font-size: 1rem;;
+    }
+
+    article p {
+        font-size: 1rem;
+        padding: 0.5rem
+    }
+
+    article strong {
+        font-size: 1rem;
+        padding: 0.5rem
+    }
+
+        
+    article em {
+        font-size: 1rem;
+        padding: 0.5rem
+    }
+    
+
+/* Style des icones */
+    .icone {
+        color: #0d6efd;
+        font-size: 2.5rem;
+        padding-bottom: 1rem;;
+}
+
+/* Effet sur les icones au survol des articles */
+article:hover .icone{
+        color: #cde1f8;
+}
+
+@media (min-width: 768px) {
+        .container-offre{
+                display: flex;
+                justify-content: center;
+                padding: 5rem 0rem 5rem 0rem;
+        }
+        .container-offre article {
+                max-width: 28%;
+        }
+}
+
+@media (max-width: 992px) {
+        .titre-offre h2 {
+                font-size: 2rem;
+        }
+}        

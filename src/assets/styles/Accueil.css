@@ -7,7 +7,7 @@
       }
       
       .background-image-accueil {
-        background-image: url(../assets/images/accueil.jpg);
+        background-image: url(../images/accueil.jpg);
         background-size: cover;
         background-position: center;
         height: 100%;
