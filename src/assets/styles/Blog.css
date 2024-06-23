@@ -1,0 +1,53 @@
+/* Style du titre des réalisations */
+.titre-blog {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: white;
+      }
+      
+      .titre-blog h2 {
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        padding-top: 2rem;
+      }
+      
+      .titre-blog p::after {
+        content: "";
+        display: flex;
+        padding-top: 0.8rem;
+        margin: auto;
+        width: 25%;
+        border-bottom: 4px solid #0d6efd;
+      }
+      
+      /* Style des cards d'articles de blog */
+      .card-title {
+        border: none !important;
+      }
+      
+      /* CSS pour les cartes d'articles de blog */
+      
+      .card {
+              display: flex;
+              flex-direction: column;
+      }
+      
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        padding: 1rem;
+      }
+      
+      .card-body .btn {
+              text-align: left !important;
+              margin-top: 1rem;
+              margin-left: 0 !important;
+              text-align: left;
+              background-color: #0d6efd;
+              color: white;
+      
+      }
+      
