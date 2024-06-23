@@ -1,0 +1,55 @@
+/* Style du titre des réalisations */
+.titre-mentions {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: white;
+      }
+      
+      .titre-mentions h2 {
+        text-transform: uppercase;
+        font-size: 2rem;
+        padding-top: 2rem;
+      }
+      
+      .titre-mentions p::after {
+        content: "";
+        display: flex;
+        padding-top: 0.8rem;
+        margin: auto;
+        width: 25%;
+        border-bottom: 4px solid #0d6efd;
+      }
+
+/* Style de l'accordéon */
+.accordion{
+        margin: 2rem 0rem 2rem 0rem;
+}
+
+.accordion-button:hover{
+color:#0d6efd;
+}
+
+.accordion-body h3 {
+        font-size: 1.8rem;
+}
+
+.telephone, .mail, .always, .pixabay{
+        text-decoration: none;
+        color: #0d6efd;
+}
+
+.accordion-body i {
+        margin-right:0.5rem;
+        color: black;
+}
+
+.accordion-body p{
+        margin:0
+}
+
+@media (max-width: 768px) {
+        .accordion:hover {
+                color:#0d6efd;
+        }
+      }
